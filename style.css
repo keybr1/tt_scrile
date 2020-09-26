@@ -1,0 +1,172 @@
+.container {
+  width: 380px;
+  height: 160px;
+  border: 1px dashed #000;
+  margin: auto;
+  margin-top: 200px;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.target-indicator-demo {
+  height: 100%;
+  border: 1px solid rgb(78, 78, 78);
+  border-radius: 9px;
+  box-shadow: 0px 0px 14px 0px #969195;
+}
+
+.target-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 15%;
+  padding-top: 8px;
+  padding-left: 15px;
+  border-radius: 9px 9px 0 0;
+  color: #fff;
+  background-color: rgb(78, 78, 78);
+  font-family: 'Quicksand',
+    sans-serif;
+  font-weight: normal;
+}
+
+.target-main {
+  height: 62.5%;
+  margin: 0;
+  padding: 13px;
+  background-color: rgb(240, 237, 237);
+  border-radius: 0 0 9px 9px;
+}
+
+.target-form {
+  height: 100%;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid rgb(184, 182, 182);
+  border-radius: 5px;
+}
+
+.target-form-main {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 0px;
+  align-items: center;
+}
+
+.target-form-text {
+  color: rgb(78, 78, 78);
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Quicksand',
+    sans-serif;
+  margin-right: 20px;
+}
+
+.target-middle-block {
+  margin-top: 25px;
+}
+
+.target-form-progress {
+  width: 120px;
+  height: 8px;
+  border: 3px solid rgb(214, 210, 210);
+  background-color: rgb(214, 210, 210);
+  position: relative;
+  margin-top: 3px;
+  margin-right: 1px;
+}
+
+.target-form-progress:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 93%;
+  background-color: rgb(12, 139, 212);
+}
+
+.target-form-indicator_triangle {
+  position: relative;
+  color: #fff;
+}
+
+.target-form-indicator_triangle::after {
+  content: '';
+  position: absolute;
+  left: 107px;
+  bottom: -8px;
+  border: 6px solid transparent;
+  border-bottom: 6px solid rgb(97, 96, 96);
+}
+
+.target-form-indicator_text {
+  font-size: 13px;
+  padding-top: 10px;
+  margin-left: 103px;
+  color: rgb(97, 96, 96);
+  font-weight: 600;
+}
+
+.target-form-total {
+  width: 50px;
+  height: 38px;
+  background-color: rgb(158, 157, 157);
+  background: linear-gradient(0.01deg, rgb(121, 120, 120) 0.01%, rgb(158, 157, 157) 95.44%);
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand',
+    sans-serif;
+  border-radius: 2px;
+}
+
+.target-form-total_value {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.target-form-total_text {
+  font-size: 12px;
+  font-weight: normal;
+  padding-top: 1px;
+  color: white;
+}
+
+.target-form-total_line {
+  width: 43px;
+  margin-left: 3px;
+  margin-top: 2px;
+  border: 1px solid rgb(116, 116, 116);
+  border-bottom: 1px solid rgb(175, 174, 174);
+}
+
+.target-form-undertext {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 6px;
+  color: rgb(78, 78, 78);
+  font-family: 'Quicksand',
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.target-form-undertext_label {
+  width: 18px;
+  height: 18px;
+  background-color: rgb(91, 141, 170);
+  border-radius: 15px;
+  position: relative;
+  margin-right: 5px;
+}
+
+.target-form-undertext_letter {
+  padding-top: 5px;
+  margin-left: 5px;
+  line-height: 5px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Niconne',
+    cursive;
+  color: #fff;
+}
